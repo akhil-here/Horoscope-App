@@ -22,6 +22,18 @@ class _HomePageState extends State<HomePage> {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 stops: [0.3, 0.7])),
+        // gradient: new LinearGradient(
+        //     colors: [
+        //   Colors.black,
+        //   Colors.grey,
+        // ],
+        //     stops: [
+        //   0.0,
+        //   1.0
+        // ],
+        //     begin: FractionalOffset.topCenter,
+        //     end: FractionalOffset.bottomCenter,
+        //     tileMode: TileMode.repeated)),
         child: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -33,8 +45,8 @@ class _HomePageState extends State<HomePage> {
                     Text(
                       'Explore',
                       style: TextStyle(
-                        fontFamily: 'Avenir',
-                        fontSize: 44,
+                        fontFamily: 'Lobster',
+                        fontSize: 60,
                         color: const Color(0xffffffff),
                         fontWeight: FontWeight.w900,
                       ),

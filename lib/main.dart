@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:horoscope/HomePage.dart';
+import 'package:horoscope/constants.dart';
+
 import 'package:splashscreen/splashscreen.dart';
 
 void main() {
@@ -33,7 +35,12 @@ class _MyAppState extends State<MyApp> {
         image: Image.asset('assets/images/loading.gif'),
         backgroundColor: Colors.black,
         photoSize: 200.0,
-        loaderColor: Colors.black,
+        loaderColor: gradientEndColor,
+        gradientBackground: LinearGradient(
+            colors: [gradientStartColor, gradientEndColor],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            stops: [0.3, 0.7]),
       ),
     );
   }
