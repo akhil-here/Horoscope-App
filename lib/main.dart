@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
               color: Colors.white),
         ),
         seconds: 7,
-        navigateAfterSeconds: Homepage(),
+        navigateAfterSeconds: HomePage(),
         image: Image.asset('assets/images/loading.gif'),
         backgroundColor: Colors.black,
         photoSize: 200.0,
