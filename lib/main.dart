@@ -32,15 +32,10 @@ class _MyAppState extends State<MyApp> {
         ),
         seconds: 7,
         navigateAfterSeconds: HomePage(),
-        image: Image.asset('assets/images/loading.gif'),
+        image: Image.asset('assets/images/loading4.gif', fit: BoxFit.cover),
         backgroundColor: Colors.black,
         photoSize: 200.0,
-        loaderColor: gradientEndColor,
-        gradientBackground: LinearGradient(
-            colors: [gradientStartColor, gradientEndColor],
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            stops: [0.3, 0.7]),
+        loaderColor: Colors.black,
       ),
     );
   }
