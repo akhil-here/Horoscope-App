@@ -22,18 +22,6 @@ class _HomePageState extends State<HomePage> {
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 stops: [0.3, 0.7])),
-        // gradient: new LinearGradient(
-        //     colors: [
-        //   Colors.black,
-        //   Colors.grey,
-        // ],
-        //     stops: [
-        //   0.0,
-        //   1.0
-        // ],
-        //     begin: FractionalOffset.topCenter,
-        //     end: FractionalOffset.bottomCenter,
-        //     tileMode: TileMode.repeated)),
         child: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -141,9 +129,16 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ],
                           ),
-                          Hero(
-                            tag: signs[index].position,
-                            child: Image.asset(signs[index].iconImage),
+                          Padding(
+                            padding: const EdgeInsets.fromLTRB(70, 0, 0, 0),
+                            child: Hero(
+                              tag: signs[index].position,
+                              child: Image.asset(
+                                signs[index].iconImage,
+                                width: 250,
+                                height: 250,
+                              ),
+                            ),
                           ),
                           Positioned(
                             right: 24,

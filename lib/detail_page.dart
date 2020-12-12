@@ -66,10 +66,14 @@ class DetailPage extends StatelessWidget {
               ),
             ),
             Positioned(
-              right: -64,
+              right: -40,
               child: Hero(
                   tag: signInfo.position,
-                  child: Image.asset(signInfo.iconImage)),
+                  child: Image.asset(
+                    signInfo.iconImage,
+                    width: 300,
+                    height: 300,
+                  )),
             ),
             Positioned(
               top: 60,
