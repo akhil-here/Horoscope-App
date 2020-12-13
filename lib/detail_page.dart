@@ -35,7 +35,7 @@ class DetailPage extends StatelessWidget {
                           textAlign: TextAlign.left,
                         ),
                         Text(
-                          'Solar System',
+                          signInfo.date,
                           style: TextStyle(
                             fontFamily: 'Avenir',
                             fontSize: 31,
@@ -48,7 +48,7 @@ class DetailPage extends StatelessWidget {
                         SizedBox(height: 32),
                         Text(
                           signInfo.description ?? '',
-                          maxLines: 5,
+                          maxLines: 30,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             fontFamily: 'Avenir',
@@ -66,13 +66,15 @@ class DetailPage extends StatelessWidget {
               ),
             ),
             Positioned(
-              right: -40,
+              right: -90,
+              top: -90,
               child: Hero(
                   tag: signInfo.position,
                   child: Image.asset(
                     signInfo.iconImage,
-                    width: 300,
-                    height: 300,
+                    scale: 0.8,
+                    width: 450,
+                    height: 450,
                   )),
             ),
             Positioned(
