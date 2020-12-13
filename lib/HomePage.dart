@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
                                         textAlign: TextAlign.left,
                                       ),
                                       Text(
-                                        'Solar System',
+                                        signs[index].date,
                                         style: TextStyle(
                                           fontFamily: 'Avenir',
                                           fontSize: 23,

@@ -16,16 +16,16 @@ List<SignInfo> signs = [
   SignInfo(1,
       name: 'Aries',
       iconImage: 'assets/images/aries.png',
-      date: "MARCH 21 - APRIL 19",
+      date: "Mar 21 - Apr 19",
       description:
           "Element: \tFire\nQuality: \tCardinal\nColor: \tRed\nDay: \tTuesday\nRuler: \tMars\nGreatest Overall Compatibility: \tLibra, Leo\nLucky Numbers: \t1, 8, 17.\n\nStrengths: \tCourageous, determined, confident, enthusiastic, optimistic, honest, passionate\n\nWeaknesses: \tImpatient, moody, short-tempered, impulsive, aggressive\n\nAries likes: \tComfortable clothes, taking on leadership roles, physical challenges, individual sports\n\nAries dislikes: \tInactivity, delays, work that does not use one's talents"),
   SignInfo(
     2,
     name: 'Taurus',
     iconImage: 'assets/images/taurus.png',
-    date: "APRIL 20 - MAY 20",
+    date: "Apr 20 - May 20",
     description:
-        "The second Sign from the sun, Venus is Earth's twin in size. Radar images beneath its atmosphere reveal that its surface has various mountains and volcanoes. But beyond that, the two Signs couldn't be more different. Because of its thick, toxic atmosphere that's made of sulfuric acid clouds, Venus is an extreme example of the greenhouse effect. It's scorching-hot, even hotter than Mercury. The average temperature on Venus' surface is 900 F (465 C). At 92 bar, the pressure at the surface would crush and kill you. And oddly, Venus spins slowly from east to west, the opposite direction of most of the other Signs.",
+        "Element: \tEarth\nQuality: \tFixed\nColor: \tGreen, Pink\nDay: \tFriday, Monday\nRuler: \tVenus\nGreatest Overall Compatibility: \tScorpio, Cancer\nLucky Numbers: \t2, 6, 9, 12, 24.\n\nStrengths: \tReliable, patient, practical, devoted, responsible, stable\n\nWeaknesses: \tStubborn, possessive, uncompromising\n\nTaurus likes: \tGardening, cooking, music, romance, high quality clothes, working with hands\n\nTaurus dislikes: \tSudden changes, complications, insecurity of any kind, synthetic fabrics",
   ),
   SignInfo(
     3,
