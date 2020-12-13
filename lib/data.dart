@@ -27,14 +27,12 @@ List<SignInfo> signs = [
     description:
         "Element: \tEarth\nQuality: \tFixed\nColor: \tGreen, Pink\nDay: \tFriday, Monday\nRuler: \tVenus\nGreatest Overall Compatibility: \tScorpio, Cancer\nLucky Numbers: \t2, 6, 9, 12, 24.\n\nStrengths: \tReliable, patient, practical, devoted, responsible, stable\n\nWeaknesses: \tStubborn, possessive, uncompromising\n\nTaurus likes: \tGardening, cooking, music, romance, high quality clothes, working with hands\n\nTaurus dislikes: \tSudden changes, complications, insecurity of any kind, synthetic fabrics",
   ),
-  SignInfo(
-    3,
-    name: 'Earth',
-    date: "March 21 - April 19",
-    iconImage: 'assets/images/earth.png',
-    description:
-        "The third Sign from the sun, Earth is a waterworld, with two-thirds of the Sign covered by ocean. It's the only world known to harbor life. Earth's atmosphere is rich in nitrogen and oxygen. Earth's surface rotates about its axis at 1,532 feet per second (467 meters per second) — slightly more than 1,000 mph (1,600 kph) — at the equator. The Sign zips around the sun at more than 18 miles per second (29 km per second).",
-  ),
+  SignInfo(3,
+      name: 'Gemini',
+      date: "May 21 -June 20",
+      iconImage: 'assets/images/gemini.png',
+      description:
+          "Element: \tAir\nQuality: \tMutable\nColor: \tLight-Green, Yellow\nDay: \tWednesday\nRuler: \tMercury\nGreatest Overall Compatibility: \tSagittarius, Aquarius\nLucky Numbers: \t5, 7, 14, 23\n\nStrengths: \tGentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas\n\nWeaknesses: \tNervous, inconsistent, indecisive\n\nGemini likes: \tMusic, books, magazines, chats with nearly anyone, short trips around the town\n\nGemini dislikes: \tBeing alone, being confined, repetition and routine"),
   SignInfo(
     4,
     name: 'Mars',

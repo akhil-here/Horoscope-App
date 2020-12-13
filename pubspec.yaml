@@ -67,6 +67,9 @@ flutter:
     - family: Lobster
       fonts:
         - asset: assets/fonts/Lobster-Regular.ttf
+    - family: Calligraffitti
+      fonts:
+        - asset: assets/fonts/Calligraffitti-Regular.ttf
     - family: Bangers-Regular
       fonts:
         - asset: assets/fonts/Bangers-Regular.ttf

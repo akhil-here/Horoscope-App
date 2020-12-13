@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
             duration: 3000,
             splash: Text('Know Your Sign',
                 style: TextStyle(
-                    fontFamily: 'Lobster',
+                    fontFamily: 'Calligraffitti',
                     letterSpacing: 1.0,
                     fontWeight: FontWeight.bold,
-                    fontSize: 36.0,
+                    fontSize: 40.0,
                     color: Colors.white)),
             nextScreen: HomePage(),
             splashTransition: SplashTransition.fadeTransition,

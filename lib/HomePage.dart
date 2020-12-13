@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
                     Text(
                       'Explore',
                       style: TextStyle(
-                        fontFamily: 'Lobster',
+                        fontFamily: 'Calligraffitti',
                         fontSize: 60,
                         color: const Color(0xffffffff),
                         fontWeight: FontWeight.w900,
