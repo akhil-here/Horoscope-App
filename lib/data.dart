@@ -4,12 +4,14 @@ class SignInfo {
   final String iconImage;
   final String description;
   final String date;
-  // final List<String> images;
 
-  SignInfo(this.position,
-      {this.name, this.iconImage, this.description, this.date
-      // this.images,
-      });
+  SignInfo(
+    this.position, {
+    this.name,
+    this.iconImage,
+    this.description,
+    this.date,
+  });
 }
 
 List<SignInfo> signs = [
@@ -27,50 +29,84 @@ List<SignInfo> signs = [
     description:
         "Element: \tEarth\nQuality: \tFixed\nColor: \tGreen, Pink\nDay: \tFriday, Monday\nRuler: \tVenus\nGreatest Overall Compatibility: \tScorpio, Cancer\nLucky Numbers: \t2, 6, 9, 12, 24.\n\nStrengths: \tReliable, patient, practical, devoted, responsible, stable\n\nWeaknesses: \tStubborn, possessive, uncompromising\n\nTaurus likes: \tGardening, cooking, music, romance, high quality clothes, working with hands\n\nTaurus dislikes: \tSudden changes, complications, insecurity of any kind, synthetic fabrics",
   ),
-  SignInfo(3,
-      name: 'Gemini',
-      date: "May 21 -June 20",
-      iconImage: 'assets/images/gemini.png',
-      description:
-          "Element: \tAir\nQuality: \tMutable\nColor: \tLight-Green, Yellow\nDay: \tWednesday\nRuler: \tMercury\nGreatest Overall Compatibility: \tSagittarius, Aquarius\nLucky Numbers: \t5, 7, 14, 23\n\nStrengths: \tGentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas\n\nWeaknesses: \tNervous, inconsistent, indecisive\n\nGemini likes: \tMusic, books, magazines, chats with nearly anyone, short trips around the town\n\nGemini dislikes: \tBeing alone, being confined, repetition and routine"),
+  SignInfo(
+    3,
+    name: 'Gemini',
+    date: "May 21 -June 20",
+    iconImage: 'assets/images/gemini.png',
+    description:
+        "Element: \tAir\nQuality: \tMutable\nColor: \tLight-Green, Yellow\nDay: \tWednesday\nRuler: \tMercury\nGreatest Overall Compatibility: \tSagittarius, Aquarius\nLucky Numbers: \t5, 7, 14, 23\n\nStrengths: \tGentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas\n\nWeaknesses: \tNervous, inconsistent, indecisive\n\nGemini likes: \tMusic, books, magazines, chats with nearly anyone, short trips around the town\n\nGemini dislikes: \tBeing alone, being confined, repetition and routine",
+  ),
   SignInfo(
     4,
-    name: 'Mars',
-    date: "March 21 - April 19",
-    iconImage: 'assets/images/mars.png',
+    name: 'Cancer',
+    date: "June 21 - July 22",
+    iconImage: 'assets/images/cancer.png',
     description:
-        "The fourth Sign from the sun is Mars, and it's a cold, desert-like place covered in dust. This dust is made of iron oxides, giving the Sign its iconic red hue. Mars shares similarities with Earth: It is rocky, has mountains, valleys and canyons, and storm systems ranging from localized tornado-like dust devils to Sign-engulfing dust storms. ",
+        "Element: \tWater\nQuality: \tCardinal\nColor: \tWhite\nDay: \tMonday, Thursday\nRuler: \tMoon\nGreatest Overall Compatibility: \tCapricorn, Taurus\nLucky Numbers: \t2, 3, 15, 20\n\nStrengths: \tTenacious, highly imaginative, loyal, emotional, sympathetic, persuasive\n\nWeaknesses: \tMoody, pessimistic, suspicious, manipulative, insecure\n\nCancer likes: \tArt, home-based hobbies, relaxing near or in water, helping loved ones, a good meal with friends\n\nCancer dislikes: \tStrangers, any criticism of Mom, revealing of personal life",
   ),
   SignInfo(
     5,
-    name: 'Jupiter',
-    date: "March 21 - April 19",
-    iconImage: 'assets/images/jupiter.png',
+    name: 'Leo',
+    date: "July 23 - Aug 22",
+    iconImage: 'assets/images/leo.png',
     description:
-        "The fifth Sign from the sun, Jupiter is a giant gas world that is the most massive Sign in our solar system — more than twice as massive as all the other Signs combined, according to NASA. Its swirling clouds are colorful due to different types of trace gases. And a major feature in its swirling clouds is the Great Red Spot, a giant storm more than 10,000 miles wide. It has raged at more than 400 mph for the last 150 years, at least. Jupiter has a strong magnetic field, and with 75 moons, it looks a bit like a miniature solar system.",
+        "Element: \tFire\nQuality: \tFixed\nColor: \tGold, Yellow, Orange\nDay: \tSunday\nRuler: \tSun\nGreatest Overall Compatibility: \tAquarius, Gemini\nLucky Numbers: \t1, 3, 10, 19\n\nStrengths: \tCreative, passionate, generous, warm-hearted, cheerful, humorous\n\nWeaknesses: \tArrogant, stubborn, self-centered, lazy, inflexible\n\nLeo likes: \tTheater, taking holidays, being admired, expensive things, bright colors, fun with friends\n\nLeo dislikes: \tBeing ignored, facing difficult reality, not being treated like a king or queen",
   ),
   SignInfo(
     6,
-    name: 'Saturn',
-    date: "March 21 - April 19",
-    iconImage: 'assets/images/saturn.png',
+    name: 'Virgo',
+    date: "Aug 23 - Sept 22",
+    iconImage: 'assets/images/virgo.png',
     description:
-        "The sixth Sign from the sun, Saturn is known most for its rings. When polymath Galileo Galilei first studied Saturn in the early 1600s, he thought it was an object with three parts: a Sign and two large moons on either side. Not knowing he was seeing a Sign with rings, the stumped astronomer entered a small drawing — a symbol with one large circle and two smaller ones — in his notebook, as a noun in a sentence describing his discovery. More than 40 years later, Christiaan Huygens proposed that they were rings. The rings are made of ice and rock and scientists are not yet sure how they formed. The gaseous Sign is mostly hydrogen and helium and has numerous moons.",
+        "Element: \tEarth\nQuality: \tMutable\nColor: \tGrey, Beige, Pale-Yellow\nDay: \tWednesday\nRuler: \tMercury\nGreatest Overall Compatibility: \tPisces, Cancer\nLucky Numbers: \t5, 14, 15, 23, 32\n\nStrengths: \tLoyal, analytical, kind, hardworking, practical\n\nWeaknesses: \tShyness, worry, overly critical of self and others, all work and no play\n\nVirgo likes: \tAnimals, healthy food, books, nature, cleanliness\n\nVirgo dislikes: \tRudeness, asking for help, taking center stage",
   ),
   SignInfo(
     7,
-    name: 'Uranus',
-    date: "March 21 - April 19",
-    iconImage: 'assets/images/uranus.png',
+    name: 'Libra',
+    date: "Sept 23 - Oct 22",
+    iconImage: 'assets/images/libra.png',
     description:
-        "The seventh Sign from the sun, Uranus is an oddball. It has clouds made of hydrogen sulfide, the same chemical that makes rotten eggs smell so foul. It rotates from east to west like Venus. But unlike Venus or any other Sign, its equator is nearly at right angles to its orbit — it basically orbits on its side. Astronomers believe an object twice the size of Earth collided with Uranus roughly 4 billion years ago, causing Uranus to tilt. That tilt causes extreme seasons that last 20-plus years, and the sun beats down on one pole or the other for 84 Earth-years at a time. ",
+        "Element: \tAir\nQuality: \tCardinal\nColor: \tPink, Green\nDay: \tFriday\nRuler: \tVenus\nGreatest Overall Compatibility: \tAries, Sagittarius\nLucky Numbers: \t4, 6, 13, 15, 24\n\nStrengths: \tCooperative,diplomatic, gracious, fair-minded, social\n\nWeaknesses: \t Indecisive, avoids confrontations, will carry a grudge, self-pity\n\nLibra likes: \tHarmony, gentleness, sharing with others, the outdoors\n\nLibra dislikes: \tViolence, injustice, loudmouths, conformity",
   ),
   SignInfo(
     8,
-    name: 'Neptune',
-    date: "March 21 - April 19",
-    iconImage: 'assets/images/neptune.png',
+    name: 'Scorpio',
+    date: "Oct 23 - Nov 21",
+    iconImage: 'assets/images/scorpio.png',
     description:
-        "The eighth Sign from the sun, Neptune is about the size of Uranus and is known for supersonic strong winds. Neptune is far out and cold. The Sign is more than 30 times as far from the sun as Earth. Neptune was the first Sign predicted to exist by using math, before it was visually detected. Irregularities in the orbit of Uranus led French astronomer Alexis Bouvard to suggest some other Sign might be exerting a gravitational tug. German astronomer Johann Galle used calculations to help find Neptune in a telescope. Neptune is about 17 times as massive as Earth and has a rocky core.",
+        "Element: \tWater\nQuality: \tFixed\nColor: \tScarlet, Red, Rust\nDay: \tTuesday\nRuler: \tPluto, Mars\nGreatest Overall Compatibility: \tTaurus, Cancer\nLucky Numbers: \t8, 11, 18, 22\n\nStrengths: \tResourceful, brave, passionate, stubborn, a true friend\n\nWeaknesses: \t Distrusting, jealous, secretive, violent\n\nScorpio likes: \tTruth, facts, being right, longtime friends, teasing, a grand passion\n\nScorpio dislikes: \t Dishonesty, revealing secrets, passive people",
+  ),
+  SignInfo(
+    9,
+    name: 'Sagittarius',
+    date: "Nov 22 - Dec 21",
+    iconImage: 'assets/images/sagittarius.png',
+    description:
+        "Element: \tFire\nQuality: \tMutable\nColor: \tBlue\nDay: \tThursday\nRuler: \tJupiter\nGreatest Overall Compatibility: \tGemini, Aries\nLucky Numbers: \t3, 7, 9, 12, 21\n\nStrengths: \tGenerous, idealistic, great sense of humor\n\nWeaknesses: \tPromises more than can deliver, very impatient, will say anything no matter how undiplomatic\n\nSagittarius likes: \tFreedom, travel, philosophy, being outdoors\n\nSagittarius dislikes: \tClingy people, being constrained, off-the-wall theories, details",
+  ),
+  SignInfo(
+    10,
+    name: 'Capricorn',
+    date: "Dec 22 - Jan 19",
+    iconImage: 'assets/images/sagittarius.png',
+    description:
+        "Element: \tEarth\nQuality: \tCardinal\nColor: \tBrown, Black\nDay: \tTSaturday\nRuler: \tSaturn\nGreatest Overall Compatibility: \tTaurus, Cancer\nLucky Numbers: \t4, 8, 13, 22\n\nStrengths: \tResponsible, disciplined, self-control, good managers\n\nWeaknesses: \tPromises more than can deliver, very impatient, will say anything no matter how undiplomatic\n\nCapricorn likes: \tFamily, tradition, music, understated status, quality craftsmanship\n\nCapricorn dislikes: \tAlmost everything at some point",
+  ),
+  SignInfo(
+    11,
+    name: 'Aquarius',
+    date: "Jan 20 - Feb 18",
+    iconImage: 'assets/images/aquarius.png',
+    description:
+        "Element: \tAir\nQuality: \tFixed\nColor: \t Light-Blue, Silver\nDay: \tSaturday\nRuler: \tUranus, Saturn\nGreatest Overall Compatibility: \tLeo, Sagittarius\nLucky Numbers: \t4, 7, 11, 22, 29\n\nStrengths: \tProgressive, original, independent, humanitarian\n\nWeaknesses: \tRuns from emotional expression, temperamental, uncompromising, aloof\n\nAquarius likes: \tFun with friends, helping others, fighting for causes, intellectual conversation, a good listener\n\nAquarius dislikes: \tLimitations, broken promises, being lonely, dull or boring situations, people who disagree with them",
+  ),
+  SignInfo(
+    12,
+    name: 'Pisces',
+    date: "Feb 19 - Mar 20",
+    iconImage: 'assets/images/pisces.png',
+    description:
+        "Element: \tWater\nQuality: \tMutable\nColor: \tMauve, Lilac, Purple, Violet, Sea green\nDay: \tThursday\nRuler: \tNeptune, Jupiter\nGreatest Overall Compatibility: \Virgo, Taurus\nLucky Numbers: \t3, 9, 12, 15, 18, 24\n\nStrengths: \tCompassionate, artistic, intuitive, gentle, wise, musical\n\nWeaknesses: \tFearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr\n\nPisces likes: \tBeing alone, sleeping, music, romance, visual media, swimming, spiritual themes\n\nPisces dislikes: \tKnow-it-all, being criticized, the past coming back to haunt, cruelty of any kind",
   ),
 ];
