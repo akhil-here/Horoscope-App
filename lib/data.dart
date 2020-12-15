@@ -89,9 +89,9 @@ List<SignInfo> signs = [
     10,
     name: 'Capricorn',
     date: "Dec 22 - Jan 19",
-    iconImage: 'assets/images/sagittarius.png',
+    iconImage: 'assets/images/capricorn.png',
     description:
-        "Element: \tEarth\nQuality: \tCardinal\nColor: \tBrown, Black\nDay: \tTSaturday\nRuler: \tSaturn\nGreatest Overall Compatibility: \tTaurus, Cancer\nLucky Numbers: \t4, 8, 13, 22\n\nStrengths: \tResponsible, disciplined, self-control, good managers\n\nWeaknesses: \tPromises more than can deliver, very impatient, will say anything no matter how undiplomatic\n\nCapricorn likes: \tFamily, tradition, music, understated status, quality craftsmanship\n\nCapricorn dislikes: \tAlmost everything at some point",
+        "Element: \tEarth\nQuality: \tCardinal\nColor: \tBrown, Black\nDay: \tSaturday\nRuler: \tSaturn\nGreatest Overall Compatibility: \tTaurus, Cancer\nLucky Numbers: \t4, 8, 13, 22\n\nStrengths: \tResponsible, disciplined, self-control, good managers\n\nWeaknesses: \tPromises more than can deliver, very impatient, will say anything no matter how undiplomatic\n\nCapricorn likes: \tFamily, tradition, music, understated status, quality craftsmanship\n\nCapricorn dislikes: \tAlmost everything at some point",
   ),
   SignInfo(
     11,
