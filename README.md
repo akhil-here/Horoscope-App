@@ -1,4 +1,6 @@
-# Know Your Sign - A Simple Horoscope App
+# Know Your Sign 
+
+- A Simple Horoscope App
 
 A new Flutter project.
 
