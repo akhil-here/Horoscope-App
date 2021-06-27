@@ -1,6 +1,4 @@
-# Know Your Sign 
-
-- A Simple Horoscope App
+# Know Your Sign - A Simple Horoscope App
 <div align="center">
 
 
